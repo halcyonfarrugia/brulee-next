@@ -72,16 +72,16 @@ const ChatBot = () => {
                     chat.messages.map((message) => {
                         if (message.sender == "bot") {
                             return (
-                                <VStack key={message.sender} width="100%" align="left">
+                                <VStack key={message.index} width="100%" align="left">
                                     <VStack width="70%" bg="#E0E0E0" padding="0.5rem" fontSize="0.8rem" color="black" align="start" borderRadius="0.5rem" spacing="0">
                                         <b>Jean</b>
-                                        <Text>{message}</Text>
+                                        <Text>{message.message}</Text>
                                     </VStack>
                                 </VStack>
                             )
                         } else {
                             return (
-                                <VStack key={message} width="100%" align="end">
+                                <VStack key={message.index} width="100%" align="end">
                                     <VStack width="70%"  bg="#007AEA" padding="0.5rem" fontSize="0.8rem" color="white" align="end" borderRadius="0.5rem" spacing="0">
                                         <b>{ user ? user.name : "Customer" }</b>
                                         <Text textAlign="right">{message.message}</Text>

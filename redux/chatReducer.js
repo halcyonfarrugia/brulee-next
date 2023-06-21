@@ -23,6 +23,7 @@ const chatReducer = createSlice({
             }
         },
         updateChat: (state, action) => {
+            action.payload.index = state.messages.length;
             state.messages.push(action.payload)
         },
         resetChat: (state) => {
