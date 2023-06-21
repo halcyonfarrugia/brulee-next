@@ -32,8 +32,8 @@ const Home = () => {
           <HeroSlide 
             slideBgColor="#9ED8EA" 
             imgSrc="./croissant.png" 
-            heading="Discover Melbourne's Most Decadent Patisserie Treats."
-            subHeading="Satisfy your sweet tooth with our heavenly selection of pastries, cakes, and macarons - all crafted with the finest ingredients and an artisan's touch."
+            heading="Discover Melbourne&apos;s Most Decadent Patisserie Treats."
+            subHeading="Satisfy your sweet tooth with our heavenly selection of pastries, cakes, and macarons - all crafted with the finest ingredients and an artisan&apos;s touch."
             buttonContent="View Shop"
             href="/store"
           />
@@ -86,7 +86,7 @@ const Home = () => {
             <br/>
             <br/>
             Mariana then pursued another learning journey with Brasserie Thoumieux, under the mentorship of Chef Jean-Francois Piège.
-            Mariana's culinary career started in Paris at the Michelin-starred restaurant &apos;La Tour D'argent&apos;, under the supervision of Chef Yohan Lastre.
+            Mariana&apos;s culinary career started in Paris at the Michelin-starred restaurant &apos;La Tour D&apos;argent&apos;, under the supervision of Chef Yohan Lastre.
             <br/>
             <br/>
             Upon returning to Melbourne, she embarked on an exploration and experimentation journey using the finest local produce, ultimately enabling her to forge her own path within the culinary scene, finally founding &apos;Brûlée&apos; in 2020.

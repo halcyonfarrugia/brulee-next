@@ -43,7 +43,7 @@ const CartDrawer = () => {
                         <DrawerBody as={VStack} spacing="1rem" paddingTop="3rem" padding="1rem" color="black" bg="white" align="center">
                             {
                                 items?.length > 0 ? 
-                                    items.map((item) => <CartItem item={item}/>)
+                                    items.map((item) => <CartItem key={item.id} item={item}/>)
                                 : (
                                     <VStack>
                                         <Image src="./oops.svg" alt="Error" height="10vh" id="error-img"/>
