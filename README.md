@@ -1,38 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Brulee Patisserie Mock Frontend Website Proposal
 
-## Getting Started
+This is a proposal for creating a mock frontend website for Brulee Patisserie using Next.js, Chakra UI, Express.js, and Prisma.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The goal of this project is to create an attractive and user-friendly website for Brulee Patisserie, a high-end pastry shop. The website will showcase their delicious pastries, provide information about their services, and allow users to place orders.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The proposed features for the Brulee Patisserie mock frontend website are as follows:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Home Page: A visually appealing landing page that introduces the bakery and highlights their specialties.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Product Catalog: A section showcasing the different pastries and desserts available, including mouthwatering images, descriptions, and prices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Order Placement: A user-friendly order placement system where customers can select items from the catalog, customize their orders, and add them to a shopping cart.
 
-## Learn More
+4. Account Management: User registration and login functionality, allowing customers to create accounts, view their order history, and manage their personal information.
 
-To learn more about Next.js, take a look at the following resources:
+5. Contact and Location Information: A page with contact details and location information of Brulee Patisserie, including a map and operating hours.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. About Us: An about page providing background information about the bakery, their philosophy, and the talented team behind the exquisite pastries.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+The proposed technologies for building the Brulee Patisserie mock frontend website are as follows:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js**: Next.js is a popular React framework that enables server-side rendering, static site generation, and other performance optimizations, making it suitable for creating fast and SEO-friendly websites.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Chakra UI**: Chakra UI is a simple and modular UI component library for React that provides a set of accessible and customizable components for building beautiful user interfaces.
+
+- **React**: React will be used as the primary JavaScript library for building the website's user interface components.
+
+- **Express.js**: Express.js is a fast and minimalist web application framework for Node.js that will be used for building the backend API endpoints and handling server-side logic.
+
+- **Prisma**: Prisma is an open-source database toolkit that simplifies database access and manipulation. It will be used for ORM (Object-Relational Mapping) to interact with the database and manage data models.

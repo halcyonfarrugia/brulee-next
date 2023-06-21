@@ -9,10 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@fontsource/eb-garamond": "^4.5.11",
+    "@fontsource/inter": "^4.5.15",
+    "@fontsource/manrope": "^4.5.13",
+    "@paypal/react-paypal-js": "^7.8.3",
+    "@reduxjs/toolkit": "^1.9.5",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "framer-motion": "^10.12.2",
     "next": "13.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5"
   }
 }
