@@ -53,9 +53,9 @@ const Home = () => {
                   Crusty Delights Catered For You
               </Text>
               <Text width="60%" fontSize="1rem"  textAlign={{ base: "center", }} color="white" fontWeight="600">
-                  Got a Function or Event? <br/>No Matter the Size, We've Got You Covered.
+                  Got a Function or Event? <br/>No Matter the Size, We&apos;ve Got You Covered.
                 </Text>
-              <Image fit="contain" width={{ base: "80%", lg: "60%" }} src="./vanilla-eclair.png" css={{ animation: `rotate 120s linear infinite` }} zIndex="0"/>
+              <Image fit="contain" width={{ base: "80%", lg: "60%" }} src="./vanilla-eclair.png" css={{ animation: `rotate 120s linear infinite` }} alt="vanilla eclair" zIndex="0"/>
               <Button content="View Catering" link="/catering" main="true" zIndex="99"/>
             </VStack>
             <VStack width="50%" bg="#CF9249" display={{ base: "none", md: "flex"}} align="center" justify="center" spacing="2rem" height="85vh" zIndex="2" paddingTop="2rem" id="error-img">
@@ -64,7 +64,7 @@ const Home = () => {
                 <Text color="white" fontWeight="600" fontSize="2rem"><i>From Pastries, <u>With Love</u></i></Text>
               </VStack>
               <VStack width="60%" align="start" justify="center">
-                <Image fit="contain" width="100%" src="./heroSlide-2.jpg" zIndex="1" border="white 2px solid"/>
+                <Image fit="contain" width="100%" src="./heroSlide-2.jpg" zIndex="1" border="white 2px solid" alt="hero"/>
               </VStack>
             </VStack>
           </Flex>
@@ -79,17 +79,17 @@ const Home = () => {
             Born and raised in Lebanon, Mariana migrated to Sydney Australia at the age of 18. In 2007, she moved to Melbourne and quickly fell in love with the culinary culture that the city had to offer.
             <br/>
             <br/>
-            At the age of 27, inspired by the story of ‘Julia Child’, Mariana decided to pursue her dream of becoming a chef. She travelled to France to follow the footsteps of her idol.
+            At the age of 27, inspired by the story of &apos;Julia Child&apos;, Mariana decided to pursue her dream of becoming a chef. She travelled to France to follow the footsteps of her idol.
             <br/>
             <br/>
-            By 2014, Mariana had completed a comprehensive training program in 'Cuisine' and 'Pâtisserie', and graduated with a ’Grand Diplôme’ from ‘Le Cordon Bleu’ in Paris.
+            By 2014, Mariana had completed a comprehensive training program in Cuisine and Pâtisserie, and graduated with a &apos;Grand Diplôme&apos; from &apos;Le Cordon Bleu&apos; in Paris.
             <br/>
             <br/>
-            Mariana then pursued another learning journey with ‘Brasserie Thoumieux’, under the mentorship of Chef ‘Jean-Francois Piège’ .
-            Mariana's culinary career started in Paris at the Michelin-starred restaurant ‘La Tour D'argent’, under the supervision of Chef ‘Yohan Lastre’.
+            Mariana then pursued another learning journey with Brasserie Thoumieux, under the mentorship of Chef Jean-Francois Piège.
+            Mariana's culinary career started in Paris at the Michelin-starred restaurant &apos;La Tour D'argent&apos;, under the supervision of Chef Yohan Lastre.
             <br/>
             <br/>
-            Upon returning to Melbourne, she embarked on an exploration and experimentation journey using the finest local produce, ultimately enabling her to forge her own path within the culinary scene, finally founding ‘Brûlée’ in 2020.
+            Upon returning to Melbourne, she embarked on an exploration and experimentation journey using the finest local produce, ultimately enabling her to forge her own path within the culinary scene, finally founding &apos;Brûlée&apos; in 2020.
           </Text>
         </VStack>
         <Hide below="md">

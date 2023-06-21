@@ -62,7 +62,7 @@ const Store = () => {
             <ChatBot/>
             <HStack height="15vh" width="100vw" bg="#ba741e" justify="space-between" padding="0 2rem">
                 <HStack>
-                    <Image src="./menu-croissant.svg" width={{ base: "20%", md: "10%" }} maxHeight="100%"/>
+                    <Image src="./menu-croissant.svg" width={{ base: "20%", md: "10%" }} maxHeight="100%" alt="croissaint" />
                     <VStack align="start" color="white" fontFamily="Inter" justify="center" paddingLeft="1rem">
                         <Menu zIndex="10">
                             <MenuButton as={Button} bg="#945609" _hover={{ bg: "#b86b0d" }} _active={{ bg: "#b86b0d" }}>

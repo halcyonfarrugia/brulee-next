@@ -45,7 +45,7 @@ const Faq = () => {
             <Text width="60%" fontSize="1rem"  textAlign={{ base: "center", }} color="white" fontWeight="600">
                 If you have any further queries, try our AI ChatBot or contact us via the contact us page!
             </Text>
-            <Image fit="contain" width={{ base: "60%", md: "40%", lg: "30%" }} src="./croissant-3.png" css={{ animation: `rotate 120s linear infinite` }} zIndex="0"/>
+            <Image fit="contain" width={{ base: "60%", md: "40%", lg: "30%" }} src="./croissant-3.png" alt="croissaint" css={{ animation: `rotate 120s linear infinite` }} zIndex="0"/>
             <Button content="Ask AI ChatBot" onClick={() => dispatch(toggleChat())} main="true" zIndex="99"/>
         </VStack>
         <VStack width={{ base: "100%", md: "50%" }} height="100vh" bg="#9ED8EA" justify="center" align="start" paddingTop="4rem" spacing="1rem" padding="2rem" overflow="scroll">

@@ -103,7 +103,7 @@ const Login = () => {
                             />
                         </FormControl>
                         <Button content="Log In" main="true" type="submit"/>
-                        <Text w="100%" align="center" decoration="underline">Don't have an account? <Link href="/register">Register here!</Link></Text>
+                        <Text w="100%" align="center" decoration="underline">Don&apos;t have an account? <Link href="/register">Register here!</Link></Text>
                     </VStack>   
                 </form>
             </VStack>

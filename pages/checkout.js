@@ -159,7 +159,7 @@ const Checkout = () => {
                     </VStack>
                     <VStack width={{ base: "80%", md: "40%" }} align="start">
                         {
-                            items && items?.length > 0 && items.map((item) => <CartItem item={item} checkout="true"/>)
+                            items && items?.length > 0 && items.map((item) => <CartItem key={item.id} item={item} checkout="true"/>)
                         }
                         { items && items?.length > 0 && <Text fontSize="1rem" padding="0.25rem 0.5rem" top="1rem">
                             <b>Total Amount: </b> 

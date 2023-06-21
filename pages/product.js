@@ -87,7 +87,7 @@ const Product = () => {
                             </HStack>
                             </HStack>
                             <Flex direction={{ base: "column", md: "row" }} align="center" minHeight="77.5vh" bg="white" padding="5rem" fontFamily="Inter">
-                                <Image src={product.imageUrl} fit="contain" className="floating" zIndex="1" width={{ base: "85%", md: "50%" }} marginRight={{ base: 0, md: "2rem"}} marginBottom={{ base: "2rem", md: 0 }}/>
+                                <Image src={product.imageUrl} fit="contain" className="floating" zIndex="1" width={{ base: "85%", md: "50%" }} marginRight={{ base: 0, md: "2rem"}} marginBottom={{ base: "2rem", md: 0 }} alt={product.name}/>
                                 <VStack align="center" justify="center" spacing="2rem" width={{ base: "100%", md: "50%" }} zIndex="3">
                                     <HStack align="center" spacing="1rem">
                                         <Text 
